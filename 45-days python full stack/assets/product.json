@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "originalPrice": 150000,
+        "sellingPrice": 100000,
+        "imageSrc": "./assets/images/grid images/laptop.webp"
+    },
+    {
+        "id": 2,
+        "name": "Mobile",
+        "originalPrice": 20000,
+        "sellingPrice": 18000,
+        "imageSrc": "./assets/images/grid images/mobile.webp"
+    },
+    {
+        "id": 3,
+        "name": "Television",
+        "originalPrice": 70000,
+        "sellingPrice": 65000,
+        "imageSrc": "./assets/images/grid images/television.webp"
+    },
+    {
+        "id": 4,
+        "name": "Refrigerator",
+        "originalPrice": 30000,
+        "sellingPrice": 27500,
+        "imageSrc": "./assets/images/grid images/refrigerator.webp"
+    },
+    {
+        "id": 5,
+        "name": "Washing Machine",
+        "originalPrice": 18000,
+        "sellingPrice": 15000,
+        "imageSrc": "./assets/images/grid images/washing-machine.webp"
+    },
+    {
+        "id": 6,
+        "name": "Ear Buds",
+        "originalPrice": 15000,
+        "sellingPrice": 12000,
+        "imageSrc": "./assets/images/grid images/earbuds.webp"
+    },
+    {
+        "id": 7,
+        "name": "Headphone",
+        "originalPrice": 10000,
+        "sellingPrice": 8000,
+        "imageSrc": "./assets/images/grid images/headset.webp"
+    },
+    {
+        "id": 8,
+        "name": "Soundbar",
+        "originalPrice": 8000,
+        "sellingPrice": 7000,
+        "imageSrc": "./assets/images/grid images/home theatre.webp"
+    },
+    {
+        "id": 9,
+        "name": "Keyboard",
+        "originalPrice": 5000,
+        "sellingPrice": 4500,
+        "imageSrc": "./assets/images/grid images/keyboard.webp"
+    },
+    {
+        "id": 10,
+        "name": "Mouse",
+        "originalPrice": 2000,
+        "sellingPrice": 1800,
+        "imageSrc": "./assets/images/grid images/mouse.webp"
+    }
+]

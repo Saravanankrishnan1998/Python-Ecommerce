@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* index.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.head {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+.image{
+    height: 200px;
+    width: 200px;
+}
+
+/* Heading */
+.head {
+    color: #333;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+/* Cart Container */
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart Item Styles */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.cart-item h2 {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+}
+
+.cart-item p {
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Quantity Buttons */
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-controls button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.quantity-controls button:hover {
+    background-color: #e63900;
+}
+
+/* Remove Button */
+.remove-item {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.remove-item:hover {
+    background-color: #c9302c;
+}
+
+/* Total Amount */
+#total-amount {
+    font-size: 22px;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Checkout Button */
+.checkout-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5
+}
+/* .head{
+    font-size: 35px;
+    color: rgb(29, 110, 110);
+}
+h2{
+    font-size: 20px;
+
+}
+h3{
+    font-size: 25px;
+}
+#para{
+    font-size: 15px;
+}
+button{
+    color:rgb(0, 207, 79)
+}
+.container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+.cart-items{
+    width: 100%;
+    border: 1px solid olivedrab;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+} */
+
+/* cart.css */
+
+/* .cart-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cart-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cart-image {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.remove-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.remove-btn:hover {
+    background-color: #cc0000;
+} */
+
+.cart-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#clear-cart {
+    display: block;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+
+
+@media (min-width:320px) and (max-with:650px){
+    .cart-items{
+        width: 100%;
+    }
+    
+}
+@media (min-width:650px) and (max-width: 1024px){
+    .cart-items{
+        width: 50%;
+    }
+    
+}
+@media (min-width: 1024px){
+    .cart-items{
+        width: 30%;
+    }
+}

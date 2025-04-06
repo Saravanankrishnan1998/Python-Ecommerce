@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Product</title>
+    <link rel="stylesheet" href="./assets/css/checkout.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="products.html" id="allProductsLink">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="index.html">LogOut</a></li>
+        </ul>
+        <!-- <ul>
+            <li><a href="#" class="category-link" data-category="Laptop">Laptop</a></li>
+            <li><a href="#" class="category-link" data-category="Keyboard">Keyboard</a></li>
+            <li><a href="#" class="category-link" data-category="Mouse">Mouse</a></li>
+            <li><a href="#" class="category-link" data-category="Headphone">Headphone</a></li>
+        </ul> -->
+    </nav>
+    <h1 class="head">Checkout</h1><br>
+    <div id="order-summery"></div>
+    <form id="form">
+        <label>Name:</label>
+        <input type="text" id="name" required/><br><br>
+
+        <label>Address:</label>
+        <input type="text" id="address" required/><br><br>
+
+        <label>Payment Methods:</label>
+        <select id="payment-method">
+            <option></option>
+            <option>Credit Card</option>
+            <option>Debit Card</option>
+            <option>UPI</option>
+            <option>Cash On Delivery</option>
+
+        </select><br><br>
+        <button type="submit">Place Order</button>
+        
+    </form>
+    <script src="./assets/JS/checkout.js"></script>
+    
+</body>
+</html>

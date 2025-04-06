@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    background-color: lavender;
+}
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+.head{
+    font-size: 35px;
+    color: rgb(29, 110, 110);
+    margin-top: 100px;
+}
+    
+button{
+    color:rgb(0, 207, 79)
+}

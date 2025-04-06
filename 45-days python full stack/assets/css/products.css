@@ -1,0 +1,196 @@
+
+
+/* index.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.alert-message {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.head {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Product Display Styles */
+#product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.product_details {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.product-image {
+    width: 80%;
+    height: 50%;
+    border-radius: 8px;
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.product-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.addbtn, .buynow {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.addbtn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.buynow {
+    background-color: #dc3545;
+}
+
+.buynow:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+/* Media Queries for Responsive Design */
+
+/* 🌐 For Large Screens (Desktops) */
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+/* 📱 For Tablets (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+    /* .navbar ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    } */
+
+    #product {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .product_details {
+        width: 90%;
+        margin: auto;
+    }
+
+    .product-image {
+        width: 100%;
+        height: auto;
+    }
+
+    /* .addbtn, .buynow {
+        width: 100%;
+        font-size: 16px;
+    } */
+}
+
+/* 📲 For Mobile Phones (Up to 767px) */
+@media screen and (max-width: 767px) {
+    /* .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 5px 0;
+    } */
+
+    #product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product_details {
+        width: 95%;
+    }
+
+    .product-image {
+        width: 100%;
+        height: auto;
+    }
+
+    /* .addbtn, .buynow {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    } */
+}

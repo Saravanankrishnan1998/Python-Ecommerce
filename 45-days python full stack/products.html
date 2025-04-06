@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Vetri Electronics</title>
+    <link rel="stylesheet" href="./assets/css/products.css"/>
+</head>
+<body>
+         <!-- Navbar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="products.html" id="allProductsLink">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="index.html">LogOut</a></li>
+            </ul>
+            <ul>
+                <li><a href="#" class="category-link" data-category="Laptop">Laptop</a></li>
+                <li><a href="#" class="category-link" data-category="Keyboard">Keyboard</a></li>
+                <li><a href="#" class="category-link" data-category="Mouse">Mouse</a></li>
+                <li><a href="#" class="category-link" data-category="Headphone">Headphone</a></li>
+            </ul>
+        </nav>
+
+
+    <h1 class="head">Available Products</h1><br>
+    <div class="search-container">
+        <input
+           type="text"
+           id="search-box"
+           placeholder="search product..."
+           autocomplete="off"
+        />
+        <ul id="search-results"></ul>
+    </div>
+
+    <div class="container">
+        <div id="product">
+            <script src="./assets/JS/product.js"></script>
+        </div>
+          
+    </div>
+</body>
+</html>

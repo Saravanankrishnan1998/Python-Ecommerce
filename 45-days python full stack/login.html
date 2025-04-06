@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn Page</title>
+    <link rel="stylesheet" href="./assets/css/login.css"/>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li> -->
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <h1 class="head">LogIn Details</h1><br>
+        <form id="loginForm">
+            <label>Email:</label>
+            <input id="email" type="email" required /><br><br>
+
+            <label>Password:</label>
+            <input id="password" type="password" required /><br><br>
+
+            <button type="submit">Login</button>
+            <p id="errorMessage"></p>
+        </form>
+        <p>New User ? <a href="signup.html">SignUp</a></p>
+    </div>
+    <script src="./assets/JS/login.js"></script>
+</body>
+</html>
+ 

@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    background-color: lavender;
+}
+.head{
+    font-size: 35px;
+    color: rgb(29, 110, 110);
+}
+button{
+    color:rgb(0, 207, 79)
+}
